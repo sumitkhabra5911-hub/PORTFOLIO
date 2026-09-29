@@ -1,0 +1,100 @@
+{
+  "bio": {
+    "name": "Sumit Chauhan",
+    "age": 23,
+    "title": "Data Analyst & AI Specialist",
+    "tagline": "Turning Data into Actionable Strategy.",
+    "summary": "A 23-year-old Data Analyst & AI Specialist with a B.Sc. in Data Science (2025) and an M.Sc in Artificial Intelligence & Data Science (Completed 2026). Passionate about uncovering business patterns using Python, SQL, and Power BI.",
+    "location": "Mohali, Punjab, India",
+    "email": "sumitkhabra5911@gmail.com",
+    "phone": "+91 94678 03715",
+    "linkedin": "https://www.linkedin.com/in/sumit-chauhan-764107437",
+    "github": "https://github.com/sumitkhabra5911-hub",
+    "current_role": "Data Analytics Intern @ Sortiq Solution Pvt Ltd",
+    "open_to_roles": true
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "M.Sc in Artificial Intelligence & Data Science",
+      "level": "Postgraduate",
+      "institution": "Chaudhary Devi Lal University, Sirsa",
+      "year": "2026",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "degree": "B.Sc. in Data Science",
+      "level": "Undergraduate",
+      "institution": "Chaudhary Devi Lal University, Sirsa",
+      "year": "2025",
+      "status": "Graduated"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Data Analytics Internship & Training",
+      "company": "Sortiq Solution Pvt Ltd",
+      "location": "Mohali, Punjab",
+      "period": "Present",
+      "type": "Internship",
+      "description": "Undergoing hands-on industry training on real-world business datasets. Performing exploratory data analysis, data wrangling, cleaning anomalies, and building automated visualization dashboards for operational reporting."
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Data Querying & Analysis",
+      "icon": "📊",
+      "items": ["SQL (PostgreSQL / MySQL)", "Python (Pandas, NumPy)", "Advanced Excel", "Data Cleaning & Preprocessing"]
+    },
+    {
+      "id": 2,
+      "category": "Visualization & BI",
+      "icon": "📈",
+      "items": ["Power BI & DAX", "Tableau", "Matplotlib & Seaborn", "Interactive Dashboards"]
+    },
+    {
+      "id": 3,
+      "category": "AI & Data Science",
+      "icon": "🤖",
+      "items": ["Scikit-Learn", "Predictive Modeling", "Statistical Inference", "Classification & Regression"]
+    },
+    {
+      "id": 4,
+      "category": "Tools & Workflows",
+      "icon": "⚙️",
+      "items": ["Jupyter Notebook", "Git & GitHub", "VS Code", "Google Colab"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Customer Churn & Retention Model",
+      "category": "Machine Learning / Python",
+      "description": "Built a predictive classification model using Scikit-Learn to identify high-risk customer cancellation signals before renewals, enabling proactive customer retention.",
+      "impact": "High classification accuracy with actionable feature importance.",
+      "tech": ["Python", "Scikit-Learn", "Pandas", "Seaborn"],
+      "github_url": "https://github.com/sumitkhabra5911-hub"
+    },
+    {
+      "id": 2,
+      "title": "Executive Sales Performance Dashboard",
+      "category": "Power BI / Business Intelligence",
+      "description": "Designed an interactive Power BI dashboard featuring DAX measures to track monthly revenue run-rate, regional sales targets, profit margins, and cohort performance.",
+      "impact": "Replaced static spreadsheets with interactive multi-filter reports.",
+      "tech": ["Power BI", "DAX", "SQL", "Data Modeling"],
+      "github_url": "https://github.com/sumitkhabra5911-hub"
+    },
+    {
+      "id": 3,
+      "title": "E-Commerce Transaction EDA & RFM",
+      "category": "SQL & Exploratory Analysis",
+      "description": "Extracted transaction records with complex SQL queries (CTEs, Window Functions) and grouped shoppers into RFM (Recency, Frequency, Monetary) cohorts for marketing campaigns.",
+      "impact": "Identified top 15% VIP customers generating over 55% of revenue.",
+      "tech": ["SQL", "Python", "RFM Analysis", "Matplotlib"],
+      "github_url": "https://github.com/sumitkhabra5911-hub"
+    }
+  ]
+}

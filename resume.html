@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit Chauhan - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Inter", Arial, sans-serif; background: #f0f4f8; color: #1a1a2e; font-size: 13px; line-height: 1.55; }
+    .page { max-width: 820px; margin: 30px auto; background: #fff; box-shadow: 0 4px 30px rgba(0,0,0,.12); border-radius: 6px; overflow: hidden; }
+    .resume-header { background: linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color: #fff; padding: 32px 40px 28px; display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; }
+    .resume-header-left h1 { font-size: 26px; font-weight: 700; letter-spacing: -.5px; color: #fff; margin-bottom: 4px; }
+    .resume-header-left .title { font-size: 13.5px; color: #00f2fe; font-weight: 600; }
+    .resume-header-right { display: flex; flex-direction: column; gap: 5px; text-align: right; }
+    .contact-row { display: flex; align-items: center; justify-content: flex-end; gap: 6px; font-size: 12px; color: #cbd5e1; }
+    .contact-row a { color: #00f2fe; text-decoration: none; }
+    .resume-body { padding: 28px 40px 36px; }
+    .section { margin-bottom: 22px; }
+    .section:last-child { margin-bottom: 0; }
+    .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #0ea5e9; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 5px; margin-bottom: 13px; }
+    .objective-text { color: #374151; font-size: 13px; line-height: 1.65; }
+    .entry { margin-bottom: 14px; }
+    .entry:last-child { margin-bottom: 0; }
+    .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+    .entry-role { font-size: 13.5px; font-weight: 700; color: #0f172a; }
+    .entry-date { font-size: 11.5px; font-weight: 600; color: #0ea5e9; white-space: nowrap; flex-shrink: 0; }
+    .entry-org { font-size: 12px; color: #475569; font-weight: 600; margin-bottom: 5px; }
+    .entry-bullets { list-style: none; padding: 0; }
+    .entry-bullets li { padding-left: 14px; position: relative; color: #4b5563; font-size: 12.5px; margin-bottom: 3px; line-height: 1.55; }
+    .entry-bullets li::before { content: "?"; position: absolute; left: 0; color: #0ea5e9; font-size: 10px; top: 2px; }
+    .skills-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px 20px; }
+    .skill-group-label { font-size: 11px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: .6px; margin-bottom: 4px; }
+    .skill-pills { display: flex; flex-wrap: wrap; gap: 4px; }
+    .pill { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 20px; padding: 2px 9px; font-size: 11.5px; color: #374151; font-weight: 500; }
+    .pill.accent { background: #eff6ff; border-color: #bfdbfe; color: #1d4ed8; font-weight: 600; }
+    .hobbies-row { display: flex; gap: 20px; }
+    .hobby-item { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: #374151; }
+    .print-bar { position: fixed; top: 0; left: 0; right: 0; background: #1e293b; color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 10px 24px; font-size: 13px; z-index: 100; gap: 12px; }
+    .print-bar span { color: #94a3b8; }
+    .print-btn { background: linear-gradient(135deg,#00f2fe,#00ffb2); color: #050811; border: none; padding: 7px 20px; border-radius: 20px; font-weight: 700; font-size: 12.5px; cursor: pointer; }
+    @media screen { body { padding-top: 48px; } }
+    @media print { body { background: #fff; padding: 0; } .print-bar { display: none; } .page { max-width: 100%; margin: 0; box-shadow: none; border-radius: 0; } }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <span>Sumit Chauhan - Resume | Save as PDF: File > Print > Save as PDF</span>
+    <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+  <div class="page">
+    <div class="resume-header">
+      <div class="resume-header-left">
+        <h1>SUMIT CHAUHAN</h1>
+        <div class="title">Data Analyst | Data Science &amp; AI</div>
+      </div>
+      <div class="resume-header-right">
+        <div class="contact-row"><span>Phone:</span><a href="tel:+919467803715">9467803715</a></div>
+        <div class="contact-row"><span>Email:</span><a href="mailto:sumitkhabra5911@gmail.com">sumitkhabra5911@gmail.com</a></div>
+        <div class="contact-row"><span>Address:</span><span>VPO Khabra Kalan, Fatehabad</span></div>
+        <div class="contact-row"><span>LinkedIn:</span><a href="https://www.linkedin.com/in/sumit-chauhan-764107437" target="_blank">linkedin.com/in/sumit-chauhan</a></div>
+        <div class="contact-row"><span>GitHub:</span><a href="https://github.com/sumitkhabra5911-hub" target="_blank">github.com/sumitkhabra5911-hub</a></div>
+      </div>
+    </div>
+    <div class="resume-body">
+      <div class="section">
+        <div class="section-title">Career Objective</div>
+        <p class="objective-text">Motivated postgraduate in Artificial Intelligence and Data Science with hands-on training as a Data Analyst. Seeking a data analyst role where I can apply Python, SQL and Power BI to turn data into clear, useful insights and contribute to business decisions.</p>
+      </div>
+      <div class="section">
+        <div class="section-title">Experience</div>
+        <div class="entry">
+          <div class="entry-header"><div class="entry-role">Data Analyst Intern &amp; Trainee</div><div class="entry-date">Present</div></div>
+          <div class="entry-org">Sortiq Solution Pvt Ltd, Mohali</div>
+          <ul class="entry-bullets">
+            <li>Working as an intern and trainee on real data analysis tasks.</li>
+            <li>Using Python and SQL to clean, query and analyse datasets.</li>
+            <li>Building reports and dashboards in Power BI to present findings.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-header"><div class="entry-role">Web Development &amp; Python Intern</div><div class="entry-date">45 Days</div></div>
+          <div class="entry-org">Wisdom Infosoft Pvt Ltd, Mohali</div>
+          <ul class="entry-bullets">
+            <li>Completed a 45-day internship in the domain of web development and Python.</li>
+            <li>Gained practical exposure to web development and Python programming.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-title">Education</div>
+        <div class="entry">
+          <div class="entry-header"><div class="entry-role">M.Sc. in Artificial Intelligence and Data Science</div><div class="entry-date">Completed 2026</div></div>
+          <div class="entry-org">Chaudhary Devi Lal University, Sirsa</div>
+        </div>
+        <div class="entry">
+          <div class="entry-header"><div class="entry-role">B.Sc. in Data Science</div><div class="entry-date">Graduated 2025</div></div>
+          <div class="entry-org">Chaudhary Devi Lal University, Sirsa</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-grid">
+          <div><div class="skill-group-label">Programming</div><div class="skill-pills"><span class="pill accent">Python</span><span class="pill accent">SQL</span></div></div>
+          <div><div class="skill-group-label">Python Libraries</div><div class="skill-pills"><span class="pill accent">Pandas</span><span class="pill accent">NumPy</span><span class="pill">Matplotlib</span><span class="pill">Scikit-learn</span></div></div>
+          <div><div class="skill-group-label">BI Tool</div><div class="skill-pills"><span class="pill accent">Power BI</span></div></div>
+          <div><div class="skill-group-label">Data Skills</div><div class="skill-pills"><span class="pill">Data Cleaning</span><span class="pill">Data Visualization</span></div></div>
+          <div><div class="skill-group-label">Tools</div><div class="skill-pills"><span class="pill">MS Word</span><span class="pill">MS Excel</span><span class="pill">MS PowerPoint</span></div></div>
+          <div><div class="skill-group-label">Soft Skills</div><div class="skill-pills"><span class="pill">Good Communication</span></div></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-title">Hobbies</div>
+        <div class="hobbies-row">
+          <div class="hobby-item"><span>Travelling</span></div>
+          <div class="hobby-item"><span>Trekking</span></div>
+          <div class="hobby-item"><span>Badminton</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
